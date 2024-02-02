@@ -1,0 +1,48 @@
+/*<!-- Smartphone Style Sheet (phones, less than 768px) -->*/
+.navbar-toggle {
+    margin-right: 0;
+    
+}
+.buttons .btn {
+    margin-bottom: 20px;
+}
+
+.Portfolio img{
+    margin-bottom: 20px;
+}
+
+
+.Courses .PreNex {
+    margin: 19px 0;
+    padding-left: 32px;
+}
+.Crs img {
+   
+    width: 100%;
+  
+}
+.Crs {
+    height: 256px;
+}
+
+.Crs span {
+    margin-left: 40%;
+   
+}
+.art img{
+   width: 100%;
+}
+
+.Contacts input[type="text"], .Contacts input[type="email"], .Contacts textarea, .Contacts input[type="submit"] {
+    width:100%;
+}
+
+.StudentProject .PreNex, .Articles .PreNex  {
+    margin-top: 0%;
+    margin-right: 16px;
+    margin-bottom: 5%;
+}
+.li-w{
+    width: 90px;
+}
+

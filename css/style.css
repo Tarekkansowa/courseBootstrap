@@ -1,0 +1,395 @@
+/* General	*/
+body{
+	font-family: 'Raleway', Arial;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 400;
+	background: #003153;
+	
+
+}
+h1{
+	font-size: 32px;
+	margin: 40px 0;
+}
+
+/* Header	*/
+
+header{
+	background: url(../images/header_bg.jpg)  top center repeat-y ;
+	min-height: 760px;
+	width: 100%;
+	padding-top: 40px;
+}
+
+.logo{
+	
+}
+
+/*	NavBar */
+.navbar{
+	background: 0;
+	padding: 0;
+	border: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	background: 0;
+	color: #ff9;
+	border-bottom: 5px solid #ff0;
+}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+	padding: 10px;
+}
+
+.search .btn-success, .web{
+	background: #16a085;
+	border:0;
+}
+
+/*
+.sub{
+	margin-left: -14px;
+} */
+
+.slogn{
+	margin-top: 7%; 
+}
+
+.slogn h3{
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 4%
+}
+
+.slogn h1{
+	font-size: 50px;
+	color: #ff0;
+	margin-bottom: 4%
+}
+
+.slogn p{
+	font-size: 22px;
+	text-align: justify;
+	margin-bottom: 5%;
+	font-weight: 300;
+}
+
+.slogn p span{
+	font-weight: 500;
+	color: #ff0;
+	text-decoration: underline;
+}
+
+/* buttons	*/
+.buttons{
+	margin-top: 2%;
+}
+
+.buttons .btn{
+	line-height: 2;
+	font-size: 24px;
+}
+
+/* Portfolio    */
+
+.Portfolio{
+	background:url(../images/about_bg.jpg) top center repeat-y;
+	width: 100%;
+	min-height: 760px;
+
+}
+
+.Portfolio h1{
+	color:#219452;
+}
+
+.Portfolio p{
+	font-size: 17px;
+	color: #000;
+	text-align: justify;
+	font-family: amiri, tahoma;
+	font-weight: 200;
+	/*direction: rtl;*/
+	line-height: 35px;
+	margin-bottom: 20px;
+
+}
+
+.Portfolio img{
+
+}
+
+/* Courses    */
+.Courses{
+	background:url(../images/courses_bg.jpg) top center repeat-y;
+	width: 100%;
+	min-height: 760px;
+
+}
+
+.Courses h1{
+	color: #ff0;
+
+}
+
+.Courses .PreNex{
+	margin-top: 40px;
+}
+
+.Crs{
+	height: 216px;
+}
+
+.Crs h2{
+	border-radius: 3px 3px 0 0;
+	height: 42px;
+	width: 100%;
+	background: #16a085 ;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 17px;
+	line-height: 42px;
+	color: #fff !important ;
+}
+
+.Crs img{
+	border-radius: 0 0 3px 3px;
+	/*width: 100%;*/
+	height: 174px;
+}
+
+.Crs span{
+	font-size: 60px;
+	color: #16a085;
+	margin: -120px 0 0 55px; 
+	display: block;
+	background: 0 !important;
+}
+
+.devlopment{
+	margin-top: 50px;
+}
+
+.Crs:nth-child(2) h2, .Crs:nth-child(2) span{
+	background: #27ae60 ;
+	color: #27ae60  ;
+
+	}
+
+.Crs:nth-child(3) h2, .Crs:nth-child(3) span{
+	background: #2980b9;
+	color: #2980b9;
+	}
+
+.Crs:nth-child(4) h2, .Crs:nth-child(4) span{
+	background: #315478;
+	color: #315478;
+	}
+
+.Crs:nth-child(5) h2, .Crs:nth-child(5) span{
+	background: #2c3e50;
+	color: #2c3e50;
+	}
+
+.Crs:nth-child(5) h2, .Crs:nth-child(5) span{
+	background: #27ae60;
+	color: #27ae60;
+	}
+
+/* Gallery 	*/
+.Gallery{
+	background:url(../images/gallery_bg.jpg) top center repeat-y;
+	width: 100%;
+	min-height: 760px;
+
+}
+
+.arrows{
+	margin-top: 30.5%;
+	
+}
+
+.arrow{
+	width: 66px;
+	height: 66px;
+	background: url(../images/arrows.png);
+
+}
+
+.slider{
+	padding: 114px 0 0 94px;
+
+}
+
+.left{
+	background-position:  0 0;
+	display: block;
+}
+
+.right{
+	background-position:  -66px 0;
+	display: block;
+}
+
+/*StudentProject*/
+.StudentProject{
+	background:url(../images/student_bg.jpg) top center repeat-y;
+	width: 100%;
+	min-height: 760px;
+}
+
+.StudentProject h1{
+	color: #ff0;
+}
+
+.StudentProject .PreNex {
+    margin-top: 40px;
+    margin-right: 16px;
+}
+
+
+.stu img{
+	/*width: 100%;*/
+	height: 247px;
+	border-radius: 0 0 3px 3px;
+	margin-bottom: 50px;
+
+}
+
+
+.all-pro{
+	width: 110px;
+	height: 34px;
+	float: right;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.all-pro h2{
+	font-size: 16px;
+	color: #000;
+	background: #fff;
+	line-height: 32px;
+	margin-top: 0;
+	padding-left: 4px;
+
+
+}
+
+a.rig {
+	float:right; 
+	background:#fff;
+	border-radius: 0 3px 3px 0;
+	border-style: none;
+}
+
+a.rig1 {
+	float:right; 
+	background:#fff;
+	border-radius: 3px 0 0 3px;
+	border-style: none;
+}
+
+/* Articles */
+
+
+.Articles{
+	background:url(../images/article_bg.jpg) top center repeat-y;
+	width: 100%;
+	min-height: 760px;
+}
+
+.Articles h1{ 
+	color: #ff0;
+}
+.Articles .PreNex {
+    margin-top: 40px;
+    margin-right: 16px;
+}
+
+.art{
+	margin-bottom: 40px;
+
+	
+}
+
+.art h2{
+	border-radius: 0 0 3px 3px;
+	height: 80px;
+	width: 100%;
+	background: #00385e ;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+	line-height: 42px;
+	color: #fff !important ;
+}
+
+
+/* 	CONTACTS */
+
+.Contacts{
+	background:url(../images/contacts_bg.jpg) top center repeat-y;
+	width: 100%;
+	min-height: 760px;
+
+}
+
+.Contacts h1{
+	color: #ff0;
+	margin-bottom: 40px;
+}
+
+.Contacts input[type="text"], .Contacts input[type="email"], .Contacts textarea{
+	margin-bottom: 20px;
+	background: 0;
+	border-radius: 5px;
+	width: 80%;
+	height:40px;
+
+}
+
+.Contacts textarea{
+	width: 100%;
+	height: 222px;
+}
+.Contacts input[type="submit"]{
+	width: 40%;
+	height: 42px;
+	line-height: 42px;
+	padding: 0;
+	color: #fff;
+	font-weight: 600;
+
+}
+.contact {
+	margin-bottom: 20px;
+}
+
+.contact img{
+	float: left;
+	margin-right: 34px;
+}
+
+.contact h2{
+	font-size:12px;
+	line-height: 44px;
+}
+
+.copy{
+	margin-top: 130px;
+}
+
+.copy h2{
+	font-size: 17px;
+	color: #ff0;
+	font-family: arial;
+}
+
